@@ -1,0 +1,9 @@
+2025-03-26 18:37:42.141 | INFO     | __main__:soma:6 - 2
+2025-03-26 18:37:42.142 | INFO     | __main__:soma:7 - 3
+2025-03-26 18:47:14.420 | CRITICAL | __main__:soma:11 - Erro ao somar. Valide os valores informados.
+2025-03-26 18:47:28.438 | ERROR    | __main__:soma:11 - Erro ao somar. Valide os valores informados.
+2025-03-26 18:48:27.367 | INFO     | __main__:soma:8 - O resultado da soma 2 + 3 = 5
+2025-03-26 18:48:41.400 | INFO     | __main__:soma:8 - 2 + 3 = 5
+2025-03-26 18:49:40.601 | INFO     | __main__:soma:8 - 2 + 3 = 5
+2025-03-26 18:49:40.601 | ERROR    | __main__:soma:11 - Erro ao somar. Valide os valores informados.
+2025-03-26 18:50:23.728 | ERROR    | __main__:soma:11 - Erro ao somar. Valide os valores informados.
