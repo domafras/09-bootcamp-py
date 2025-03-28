@@ -16,7 +16,9 @@ def calcular_kpi_total_vendas(df: pd.DataFrame) -> pd.DataFrame:
 
 # Função Load, que carrega os dados em CSV ou Parquet
 def carregar_dados(df: pd.DataFrame, formato_saida: list):
-
+    """
+    parametro que vai ser ou "csv" ou "parquet" ou "os dois"
+    """
     for formato in formato_saida:
         if formato == 'csv':
             df.to_csv('data/df.csv', index=False)
