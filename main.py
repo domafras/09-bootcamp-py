@@ -1,16 +1,9 @@
 from loguru import logger # type: ignore
 
+def minha_funcao():
+    raise ValueError("Um erro aconteceu!")
 
-
-logger.add("file.log", level="ERROR")
-
-def soma(x, y):
-    try:
-        soma = x + y
-        logger.info(f'{x} + {y} = {soma}')
-        return soma
-    except:
-        logger.error("Erro ao somar. Valide os valores informados.")
-
-soma(2, 3)
-soma(2, "3")
+try:
+    minha_funcao()
+except Exception:
+    logger.exception("Uma exceção foi capturada")

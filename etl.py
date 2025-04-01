@@ -31,3 +31,5 @@ def pipeline_calcular_kpi_vendas(pasta: str, formato_saida: list) -> None:
     df_calculado = calcular_kpi_total_vendas(df_test)
     carregar_dados(df_calculado, formato_saida)
     
+# Função que da load em csv ou parquet
+print(carregar_dados.__doc__)
